@@ -1,8 +1,8 @@
 ---
 layout:	post
-title:	dotnet core 中读取配置信息
+title:	.NET Core 中读取配置信息
 author: StoneLi
-description: dotnet core 中读取配置信息
+description: .NET Core 中读取配置信息
 catalog: true
 tags: [dotnet, dotnetcore]
 type: dotnet
