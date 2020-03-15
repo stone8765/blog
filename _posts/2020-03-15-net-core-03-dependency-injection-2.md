@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	【ASP.NET Core 入门】二、依赖注入-autofac框架
+title:	【ASP.NET Core 入门】三、依赖注入-autofac框架
 author: StoneLi
 description: ASP.NET Core 依赖注入
 tags: [dotnet, dotnetcore]
