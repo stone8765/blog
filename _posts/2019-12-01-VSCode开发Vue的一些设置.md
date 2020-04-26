@@ -13,18 +13,20 @@ type: vue
  * 在设置中搜索 ```vetur```
  * 编辑```settings.json```添加以下配置:
    ```json
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur" // 使用 vetur 格式化规则
-    },
-    "vetur.format.defaultFormatterOptions": {
-        "prettier": {
-            "semi": false, // 去掉分号
-            "singleQuote": true, // true 为使用单引号
+    {
+        "[vue]": {
+            "editor.defaultFormatter": "octref.vetur" // 使用 vetur 格式化规则
         },
-    },
-    "vetur.format.defaultFormatter.js": "vscode-typescript", // js 使用 typescript
-    "vetur.format.defaultFormatter.html": "js-beautify-html", // html 使用 beautify
-    "javascript.format.insertSpaceBeforeFunctionParenthesis": true, // 函数名字和括号前加空格
+        "vetur.format.defaultFormatterOptions": {
+            "prettier": {
+                "semi": false, // 去掉分号
+                "singleQuote": true, // true 为使用单引号
+            },
+        },
+        "vetur.format.defaultFormatter.js": "vscode-typescript", // js 使用 typescript
+        "vetur.format.defaultFormatter.html": "js-beautify-html", // html 使用 beautify
+        "javascript.format.insertSpaceBeforeFunctionParenthesis": true // 函数名字和括号前加空格
+    }
    ```
 
 2. eslint检查语法时会要求方法和括号之间留一个空格以及上面1中的问题, 在项目中的```.eslintrc.js```文件中设置一下:
